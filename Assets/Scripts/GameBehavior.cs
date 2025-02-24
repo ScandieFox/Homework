@@ -33,7 +33,7 @@ public class GameBehavior : MonoBehaviour, IManager
 
     public void Initialize()
     {
-        _state = "Game Manager initialized..";
+        _state = "Game Manager initialized.. this is where the fun begins";
         _state.FancyDebug();
         Debug.Log(_state);
     }
